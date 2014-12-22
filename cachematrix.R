@@ -1,5 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Function calculates inverse of a matrix. If the inverse is already in memory, 
+## it is returned. If not, inverse is computed from "solve" function", the value
+## stored and then it is returned.
 
 ## Write a short comment describing this function
 
@@ -22,7 +23,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function calculates invesrse using "solve" function. If the inverse matrix
+## is already in memory, it simply returns it. If not, the function computed the 
+## inverse using the "solve" function and stores it in memory and then return it.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
